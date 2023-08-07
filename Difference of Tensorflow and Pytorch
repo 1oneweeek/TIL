@@ -1,0 +1,10 @@
+# Difference of Tensorflow and Pytorch
+
+## 1. the paradigm to implement deep-learning
+* Framework: A program that provides manual rules and various elements necessary for development
+
+• Tensorflow: Define-and-Run framework
+Create a session that is an environment in which code is directly turned.
+It declares placeholder and then make a calculate graph and create a calculation graph. Then put the data at the time of code execution.
+• Pytorch: Define-by-Run framework
+Put the data at the time of declaration and it doesn't need session so code is simple and the difficulty level is low.
