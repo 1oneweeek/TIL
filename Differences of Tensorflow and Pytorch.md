@@ -1,6 +1,6 @@
 ﻿# Differences of Tensorflow and Pytorch
 
-## 1. the paradigm to implement deep-learning
+## 1. The paradigm to implement deep-learning
 Framework: A program that provides manual rules and various elements necessary for development
 
 • Tensorflow: Define-and-Run framework
@@ -10,7 +10,7 @@ It declares placeholder and then make a calculate graph and create a calculation
 Put the data at the time of declaration and it doesn't need session so code is simple and the difficulty level is low.
 Real-time results are visualized, and a new calculation graph is defined for each pure wave and used.
 
-## 2. the graph form
+## 2. The graph form
 • Tensorflow: Once a calculation graph is defined, only the input data that goes into the graph can be different, and only the same graph can be run.
 • Pytorch: When creating a model graph, it is not fixed and can be adjusted according to the data at any time.
 
