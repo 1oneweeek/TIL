@@ -23,7 +23,7 @@ Attention allows the model to focus on the relevant part of the input sequence a
 ## Transformer
 
 ### Self-Attention
- 1. Query, Key, Value
+#### Query, Key, Value
 First, to calculate the connection between the two, it internalizes Query and Key. This internal value is called the "Attention score". However, if the dimension of Query and Key increases, the internal value called Attention score also increases, which makes it difficult to learn the model. Therefore, to solve this problem, we perform scaling to divide the root of dimension d_k. This stage is called "Scaled dot-product Attention". Then, we go through the softmax active function to normalize the values, and finally internalize the score and value matrices calculated so far for correction, and we get the final attention matrix.
 ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/yVVfe/btrTzCrzFGc/Zh23AOAdSZiNgMzmU7KsF0/img.png)
 ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/esNIJL/btrTu3cUZiT/pl72Q5rMS4jjHmTvXTo0n1/img.png)
