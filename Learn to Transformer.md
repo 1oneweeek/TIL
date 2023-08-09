@@ -5,7 +5,7 @@
 1. The number of items to the input and the number of items to the output need not be the same.
 Ex) Je suis etudiant -> I am a student
 
-2. Main idea: encoder와 decoder
+2. Main idea: encoder and decoder
 - Encoder: How to process and store the entered information
 -> By made context vector
 - Decoder: How to unpack and return compressed information from the encoder
